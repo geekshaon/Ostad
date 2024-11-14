@@ -1,0 +1,107 @@
+body {
+  margin: 25px;
+}
+.main-head {
+  background-image: linear-gradient(
+    to right,
+    rgb(79, 42, 243),
+    rgb(0, 102, 255)
+  );
+  border-radius: 5px;
+  padding: 10px;
+}
+.main-title {
+  color: whitesmoke;
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  display: inline;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.menu ul li a:hover {
+  color: chocolate;
+}
+.promo {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(235, 181, 4, 0.986);
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main {
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+}
+.project img {
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
+}
+.project img:hover {
+  filter: blur(2px);
+}
+.btn {
+  background-color: rgb(4, 112, 236);
+  border: 0px;
+  color: aliceblue;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.about {
+  padding-bottom: 15px;
+}
+.home {
+  padding-bottom: 15px;
+}
+.services {
+  padding-bottom: 15px;
+}
+
+.f-title {
+  font-weight: bold;
+}
+.f-input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px rgb(161, 120, 91) solid;
+}
+.f-btn {
+  margin-top: 10px;
+}
+h2 {
+  color: rgb(6, 101, 245);
+}
+.footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
