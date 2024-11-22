@@ -1,0 +1,47 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.wbtn {
+  border: 1px solid #27ae60;
+  color: #27ae60;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px;
+}
+.cbtn {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 5px;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  border: 0px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.hero-left-con h1 {
+  font-weight: 700;
+}
+.hero-left-con h1 span {
+  color: #00c9fc;
+  background: url("/img/span.png") no-repeat bottom center;
+}
+.hero-left-con li {
+  list-style: none;
+}
+.hero-left-con i {
+  color: #08191d;
+}
+.book {
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  border: 0px;
+}
+.cv {
+  border: 1px solid #dfd9d9;
+}
+.cvi {
+  color: rgb(34, 207, 207);
+}
+
+.register {
+  background: linear-gradient(to right, #0acefe, #2699fb);
+}
